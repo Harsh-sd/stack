@@ -6,8 +6,8 @@ stack<int> st;
 // this will return the result
 int postfix(string s)
 {
-    // In case of prefix traverse from last
-    for (int i=0;i<s.length();i++)
+    // In case of postfix traverse from start
+    for (int i = 0; i < s.length(); i++)
     {
         // this is done for the purpose of ascii value
         if (s[i] >= '0' && s[i] <= '9')
